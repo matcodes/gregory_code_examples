@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	
+<groupId>com.javademo.test.derby</groupId>
+	
+<artifactId>derby</artifactId>
+	
+<name>Derby Example</name>
+	
+<version>1.0.0</version>
+	
+<description />
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.5</source>
+						<target>1.5</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<configuration>
+						<!-- 
+						<additionalClasspathElements>
+							Be sure that JAVA_HOME points to a JDK6 installation 
+							<additionalClasspathElement>${env.JAVA_HOME}/db/lib/derby.jar
+							</additionalClasspathElement>
+						</additionalClasspathElements>
+						-->
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>attach-sources</id>
+							<phase>verify</phase>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<dependencies>
+	
+		<dependency>
+		
+			<groupId>org.dbunit</groupId>
+		
+				<artifactId>dbunit</artifactId>
+	
+						<version>2.2.2</version>
+			<scope>test</scope>
+		</dependency>
+
+					<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+			<version>10.9.1.0</version>
+		</dependency>
+	</dependencies>
+</project>

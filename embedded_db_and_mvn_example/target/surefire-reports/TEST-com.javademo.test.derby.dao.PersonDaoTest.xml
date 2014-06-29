@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.513" errors="0" skipped="0" tests="1" name="com.javademo.test.derby.dao.PersonDaoTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.1-b02-383"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11D50d"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03-383-11D50d"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/surefire/surefirebooter8172924826135159486.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/vq/x62s1n0s34n58xjw1wf6t_1r0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value="/usr/local/mysql/lib::.:/Users/venkat/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/test-classes:/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/classes:/Users/venkat/.m2/repository/org/dbunit/dbunit/2.2.2/dbunit-2.2.2.jar:/Users/venkat/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/venkat/.m2/repository/junit-addons/junit-addons/1.4/junit-addons-1.4.jar:/Users/venkat/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/Users/venkat/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/venkat/.m2/repository/poi/poi/2.5.1-final-20040804/poi-2.5.1-final-20040804.jar:/Users/venkat/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/venkat/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/Users/venkat/.m2/repository/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.jar:/Users/venkat/.m2/repository/org/slf4j/slf4j-nop/1.4.3/slf4j-nop-1.4.3.jar:/Users/venkat/.m2/repository/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/venkat"/>
+    <property name="user.timezone" value="GMT+05:30"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="venkat"/>
+    <property name="java.class.path" value="/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/test-classes:/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/classes:/Users/venkat/.m2/repository/org/dbunit/dbunit/2.2.2/dbunit-2.2.2.jar:/Users/venkat/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/venkat/.m2/repository/junit-addons/junit-addons/1.4/junit-addons-1.4.jar:/Users/venkat/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/Users/venkat/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/venkat/.m2/repository/poi/poi/2.5.1-final-20040804/poi-2.5.1-final-20040804.jar:/Users/venkat/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/venkat/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/Users/venkat/.m2/repository/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.jar:/Users/venkat/.m2/repository/org/slf4j/slf4j-nop/1.4.3/slf4j-nop-1.4.3.jar:/Users/venkat/.m2/repository/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/surefire/surefirebooter8172924826135159486.jar /Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/surefire/surefire7979319199321124051tmp /Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/target/surefire/surefire2144735488078577135tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="/Users/venkat/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsfd.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/laf.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/sunrsasign.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/venkat/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_26-383"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="1.481" classname="com.javademo.test.derby.dao.PersonDaoTest" name="testFindById"/>
+</testsuite>

@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Wed Aug 22 19:43:38 GMT+05:30 2012:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-0139-4eae-6ea8-0000042b11d0 
+on database directory /Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example/myDB  with class loader sun.misc.Launcher$AppClassLoader@53004901 
+Loaded from file:/Users/venkat/.m2/repository/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_26-b03-383-11D50d
+user.dir=/Users/venkat/workspace/gregory_java/embedded_db_and_mvn_example
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
